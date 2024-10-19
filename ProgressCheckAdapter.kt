@@ -20,10 +20,10 @@ class ProgressCheckAdapter(private val itemList: List<ProgressCheckItem>) : Recy
 
     class ViewHolder(private val binding: ItemProgressCheckBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: ProgressCheckItem) {
-            binding.tvProjectName.text = item.projectName
-            binding.tvCategory.text = item.category
+            binding.tvProjectName1.text = item.projectName
+            binding.tvCategory1.text = item.category
             binding.tvAmount.text = item.amount
-            binding.tvInvestor.text = item.investor
+            binding.tvStartupCompany.text = item.startupCompany
             binding.tvStatus.text = item.status
             binding.tvDescription.text = item.description
         }
