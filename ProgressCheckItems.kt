@@ -5,7 +5,7 @@ data class ProgressCheckItem(
     val projectName: String,
     val category: String,
     val amount: String,
-    val investor: String,
+    val startupCompany: String,
     val status: String,
     val description: String
 )
