@@ -32,28 +32,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Progress Check"
+                    android:text="Progress Details"
                     android:textColor="#1073ad"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="20dp"/>
 
-                <androidx.appcompat.widget.SearchView
-                    android:id="@+id/searchView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginBottom="30dp"
-                    app:iconifiedByDefault="false"
-                    app:queryHint="Search progress reports" />
-
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"/>
+
                 <androidx.appcompat.widget.AppCompatButton
                     style="@android:style/Widget.Button"
                     android:layout_width="match_parent"
