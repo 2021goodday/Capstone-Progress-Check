@@ -27,7 +27,7 @@ class ProgressCheck : AppCompatActivity() {
 
     private fun getItems(): List<ProgressCheckItem> {
         return listOf(
-            ProgressCheckItem(1, "Company Management System", "Ecommerce", "P100,000", "Sir Calleja", "Pending", "This is the project description.")
+            ProgressCheckItem(1, "Company Management System", "Ecommerce", "₱100,000.70", "CloudVibe", "Pending", "This is the project description.")
         )
     }
 }
