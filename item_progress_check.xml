@@ -147,7 +147,7 @@
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="8dp"
-            android:background="@drawable/status_ongoing"
+            android:background="@drawable/status_ongoing_button"
             app:layout_constraintTop_toBottomOf="@id/tvStatusLabel1"
             app:layout_constraintStart_toStartOf="@id/tvStatusLabel1"
             app:layout_constraintEnd_toEndOf="@id/tvStatusLabel1"/>
